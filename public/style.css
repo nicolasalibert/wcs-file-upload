@@ -1,0 +1,103 @@
+/* --- RESET CSS --- */
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*  */
+
+* {
+    text-transform: uppercase;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form div {
+    display: flex;
+    gap: 2rem;
+}
+
+#license-card {
+    width: 50rem;
+}
+
+header {
+    background-color: lightblue;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-radius: 2rem 2rem 0 0;
+}
+
+header h1 {
+    text-align: center;
+    width: 100%;
+}
+
+#card-body {
+    background-color: whitesmoke;
+    border-radius: 0 0 2rem 2rem;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#infos-top {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+img {
+    height: 300px;
+    width: 240px;
+}
+
+#main-content {
+    display: flex;
+    justify-content: space-around;
+}
